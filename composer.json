@@ -1,0 +1,15 @@
+{
+    "name": "wearejust/image-optim-bundle",
+    "description": "A Package with binaries to use image optimizers with Liip image",
+    "type": "symfony-bundle",
+    "require": {
+        "liip/imagine-bundle": "^1.8"
+    },
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "John in 't Hout",
+            "email": "john.inthout@wearejust.com"
+        }
+    ]
+}
