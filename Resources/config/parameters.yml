@@ -1,0 +1,7 @@
+parameters:
+    liip_imagine.jpegoptim.binary: '%kernel.root_dir%/../src/Wearejust/ImageOptimBundle/Resources/bin/jpegoptim'
+    liip_imagine.optipng.binary: '%kernel.root_dir%/../src/Wearejust/ImageOptimBundle/Resources/bin/optipng-x64'
+    liip_imagine.pngquant.binary: '%kernel.root_dir%/../src/Wearejust/ImageOptimBundle/Resources/bin/pngquant-x64'
+    post_processes:
+        jpegoptim: { strip_all: true, max: 70, progressive: true }
+        optipng: { strip_all: true, level: 5 }
